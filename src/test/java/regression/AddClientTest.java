@@ -40,18 +40,17 @@ public class AddClientTest {
 
         Clients clients = new Clients(driver);
 
-        clients.setLanguage("Danish");
-        clients.setCountry("Nepal");
-        clients.setGender("Female");
-        clients.setBirthDate("07/21/1900");
-
-       /* clients.setClientName("Priyanka");
+        clients.setClientName("Priyanka");
         clients.setClientSurname("bari");
+        clients.setLanguage("Danish");
         clients.setClientAdd1("xyz");
         clients.setClientAdd2("abc");
         clients.setClientCity("PUNE");
         clients.setClientState("MH");
         clients.setClientZip("67676767");
+        clients.setCountry("Nepal");
+        clients.setGender("Female");
+        clients.setBirthDate("07/21/1900");
         clients.setClientPhone("787878");
         clients.setClientFax("889899");
         clients.setClientMobile("787878787");
@@ -59,6 +58,6 @@ public class AddClientTest {
         clients.setClientWeb("www.xyz.com");
         clients.setClientVat("89898");
         clients.setClientTax("898989");
-        clients.clickSave();*/
+        clients.clickSave();
     }
 }
