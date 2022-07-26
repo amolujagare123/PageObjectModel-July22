@@ -31,4 +31,16 @@ public class ConfigReader {
     public static String getPassword() throws IOException {
         return   getLoadedPropertiesObject().getProperty("password");
     }
+
+    public static String getDbUrl() throws IOException {
+        return   getLoadedPropertiesObject().getProperty("dbUrl");
+    }
+
+    public static String getDbUser() throws IOException {
+        return   getLoadedPropertiesObject().getProperty("dbUser");
+    }
+
+    public static String getDbPassword() throws IOException {
+        return   getLoadedPropertiesObject().getProperty("dbPass");
+    }
 }
